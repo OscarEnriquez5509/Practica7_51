@@ -1,0 +1,75 @@
+/* Selector Universal */
+
+/*  * {
+    padding: 0;
+    margin: 0;
+}
+*/
+/* ------------------------------------------------ */
+
+/* Selector de tipo */
+/* main{
+    border: 2px dotted gold;
+    }
+ */
+/* -------------------------------------------------- */
+
+/* Selector por ID */
+/* #info {
+    border-bottom: 5px groove red;
+} */
+ /* ---------------------------------------------------- */
+
+ /* Selector de clase */
+ /* .Titulo {
+    border: 1px solid black;
+    box-shadow: 10px 5px 5px palegreen;
+ } */
+/* ----------------------------------------------------- */
+
+/* Selector de clase de un tag en particular */
+/* h3.Titulo {
+    font-size: 100px;
+} */
+/* ---------------------------------------------------- */
+
+/* Selector por atriburo, no importa el valor que tenga el atributo */
+/* p[lang="en"]{
+    background-color: cornflowerblue;
+} */
+/* ---------------------------------------------------- */
+
+/* Selector por atributo buscando texto al final */
+/* a[href$="mx"] {
+    background-color: brown;
+}
+
+a[href^="ftp"] {
+    background-color: burlywood;
+}
+
+a[href*="pagina"] {
+    font-size: 45px;
+}
+
+[class~="round"] {
+    border: 3px solid blue;
+    border-radius: 10px;
+} */
+
+/* -------------------------------------------------------- */
+
+/* Selectores de lista */
+/* a, .titulo, [lang]{
+    color: blue;
+} */
+
+/* Selector de decendientes */
+/* main p {
+    border: 3px solid red;
+} */
+
+/* Selector hijo directo */
+main > p {
+    border: 8px solid blue;
+}
